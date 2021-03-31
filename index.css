@@ -18,6 +18,10 @@ main {
     padding: 2vw;
 }
 
+.profile-photo {
+    width: 50vw;
+}
+
 .projects-title>h2, 
 .projects-title>h3 {
     margin: 0;
@@ -109,6 +113,12 @@ a {
     .contacts {
         margin-bottom: 1vw;
     }
+
+    .profile-photo {
+        width: 30vw;
+        margin-bottom: -28vw;
+        margin-left: 45vw; 
+    }
 }
 
 @media (min-width:800px) {
@@ -118,5 +128,10 @@ a {
 
     body {
         font-size: 1.7vw;
+    }
+
+    .profile-photo {
+        width: 19vw;
+        margin-bottom: -20vw;
     }
 }
